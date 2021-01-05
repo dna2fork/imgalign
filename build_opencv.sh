@@ -2,6 +2,9 @@
 
 #needs python and emscripten installed and available on the command line
 
+# opencv_src/cmake/OpenCVCompilerOptions.cmake
+# - possible turning: -Oz -> -O3
+
 cd opencv_src
 
 if [[ "${1}" == "small" ]] ; then
