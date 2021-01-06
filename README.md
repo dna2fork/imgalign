@@ -30,15 +30,12 @@ Pros and cons: As image stitching can be quite memory and cpu intensive, there a
 Optionally opencv can be built:
 * Install <a href="https://kripken.github.io/emscripten-site/docs/getting_started/downloads.html">emsdk</a> and make it available on the command line.
 * Install python and make it available on the command line.
-* Run build_opencv.sh, this will create an opencv wasm version and copies it to the public folder of the spa. 
-
-## Deployment
-
-## Contributing
-
-## Versioning
+* Run `scripts/build_opencv.sh`, this will create an opencv wasm version and copies it to the public folder of the spa. 
 
 ## Authors
+
+- [lastic](https://github.com/latsic)
+- Seven Lju
 
 ## License
 
@@ -46,6 +43,8 @@ MIT if not otherwise noted in the source files.
 Be aware that Surf and Sift are patented algorithms (at least in some regions of the world).
 
 ## Acknowledgments
+
+- credits to `lastic`!
 
 ## Images and Screenshots
 

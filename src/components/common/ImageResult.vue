@@ -34,6 +34,7 @@
     <v-dialog
       :attach="$refs.mainDiv"
       :ref="dialog.name"
+      :no-click-animation="true"
       v-model="showDialog"
       persistent
       @keydown.esc="showDialog = false"
