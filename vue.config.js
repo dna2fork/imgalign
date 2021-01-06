@@ -3,10 +3,10 @@
 
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/imgalign/'
+    ? './'
     : '/',
   pwa: {
-    name: 'Image Needle',
+    name: 'LatsicImgAlign',
     themeColor: '#000000',
     msTileColor: '#000000',
     appleMobileWebAppCapable: 'yes',

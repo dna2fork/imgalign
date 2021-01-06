@@ -6,7 +6,9 @@
 	],
 	"settings": {
 		"files.exclude": {
-			"opencv_src": true
+			"opencv_src": true,
+         "local": true,
+         "scripts": true
 		}
 	}
 }

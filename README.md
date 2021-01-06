@@ -24,7 +24,8 @@ Pros and cons: As image stitching can be quite memory and cpu intensive, there a
 
 ### Build instructions
 
-* npm run build / npm run serve
+* `npm run build` / `npm run serve`
+* `base scripts/workbox-sw-localize.sh` to localize workbox sw and disable google analysis
 
 Optionally opencv can be built:
 * Install <a href="https://kripken.github.io/emscripten-site/docs/getting_started/downloads.html">emsdk</a> and make it available on the command line.
@@ -60,21 +61,4 @@ Be aware that Surf and Sift are patented algorithms (at least in some regions of
 <p align="center">
   <img width="100%" src="./images/collections/collectionME.jpg">
 </p>
-<p align="center">
-  <img width="100%" src="./screenshots/Multistitcher.jpg">
-</p>
-<p align="center">
-  <img width="100%" src="./screenshots/matcher5.jpg">
-</p>
-<!-- <p align="center">
-  <img width="460" src="./screenshots/matcher2.jpg">
-</p>
-<p align="center">
-  <img width="460" src="./screenshots/matcher3.jpg">
-</p>
-<p align="center">
-  <img width="460" src="./screenshots/comparer1.jpg">
-</p> -->
-
-
 
